@@ -7,10 +7,10 @@ class WZMLStyle:
     ST_BN2_NAME = 'Leech Group'
     ST_BN2_URL = 'https://t.me/luffyleechgroup'
     ST_MSG = '''<b>@Luffyleech is here to help you download your favorite contents from <u>Terabox|Mega|Cornhub.</u></b>
-┠ /leech{CMD_SUFFIX} terabox_or_mega_url
-┖ /ytdlleech{CMD_SUFFIX} cornhub_url
+┠ /leech terabox_or_mega_url
+┖ /ytdlleech cornhub_url
 
-⌬ Features /us{CMD_SUFFIX}:
+⌬ Features /us :
 ┠ Download Bulk Links
 ┠ Custom Thumbnail
 ┠ Custom Caption
