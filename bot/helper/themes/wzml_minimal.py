@@ -3,9 +3,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Updates'
-    ST_BN1_URL = 'https://t.me/outlawbots'
+    ST_BN1_URL = 'https://t.me/luffyleech'
     ST_BN2_NAME = 'Leech Group'
-    ST_BN2_URL = 'https://t.me/+piVlRaqVf_tkNmNl'
+    ST_BN2_URL = 'https://t.me/luffyleechgroup'
     ST_MSG = '''<b>@Luffyleech is here to help you download your favorite contents from <u>Terabox|Mega|Cornhub.</u></b>
 ┠ /leech{CMD_SUFFIX} terabox_or_mega_url
 ┖ /ytdlleech{CMD_SUFFIX} cornhub_url
@@ -15,10 +15,10 @@ class WZMLStyle:
 ┠ Custom Thumbnail
 ┠ Custom Caption
 ┠ Direct Upload To Other Chats
-┖ Join @luffyleech
+┖ <a href=t.me/luffyLeech>Luffy Leech</a>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...\nDevloper @ifeelscam</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Please Join My Update @Outlawbots</i>'''
+    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...\nDevloper : @ifeelscam\nUpdates : @luffyleech</i>'''
+    ST_UNAUTH = '''<i>You Are not authorized user! Please Join My Leech Group To Use Me @luffyleechGroup</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
@@ -66,7 +66,7 @@ class WZMLStyle:
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
 
-◤@Outlawbots◢
+◤@Luffyleech◢
     
     '''
     SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
@@ -89,7 +89,7 @@ class WZMLStyle:
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
 
-       ◤@Outlawbots◢
+       ◤@Luffyleech◢
     '''
     REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
@@ -99,7 +99,7 @@ class WZMLStyle:
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
 
- ◤@Outlawbots◢
+ ◤@Luffyleech◢
     '''
     BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
 ┠ <b>Direct Limit :</b> {DL} GB
@@ -149,7 +149,7 @@ class WZMLStyle:
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>\n\n Join @Outlawbots"
+    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>\n\n Join @Luffyleech"
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
@@ -274,7 +274,8 @@ class WZMLStyle:
 ┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
 ┠<b> Username :</b> {USERNAME}
 ┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┠<b> Language :</b> {LANG}
+┖<b> Devloper :</b> <a href=t.me/ifeelscam>ᯓ ɪɴᴠᴀʟɪᴅ ᡣ𐭩</a>
 
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
